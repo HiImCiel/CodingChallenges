@@ -1,12 +1,17 @@
+# Option One
 print("Enter a sentence: ")
-input = input()
-length = len(input)
+userinput = input()
+length = len(userinput)
 array = []
 output = ""
 
 for i in range(length):
-    output += input[length - 1 - i]
+    output += userinput[length - 1 - i]
 
 print(output)
 
+# Option Two
+print("Enter a sentence: ")
+userinput = input()
+print(userinput[::-1])
 
