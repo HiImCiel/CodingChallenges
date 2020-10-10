@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="790d0987-f6bb-4f19-9d24-9da169136b1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/textsender.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrollandclickscript.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,19 +21,37 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/list.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="517">
+                <state relative-caret-position="544">
                   <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/textsender.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="595">
-                  <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+                <state relative-caret-position="544">
+                  <caret line="33" selection-start-line="33" selection-end-line="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scrollandclickscript.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="16" selection-start-line="16" selection-end-line="16" />
                   <folding>
-                    <element signature="e#136#166#0" expanded="true" />
+                    <element signature="e#0#12#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -42,8 +60,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wordcount.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+                <state relative-caret-position="510">
+                  <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
                   <folding>
                     <element signature="e#145#154#0" expanded="true" />
                   </folding>
@@ -54,11 +72,11 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wordcount.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="494">
+                <state relative-caret-position="262">
                   <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
                   <folding>
                     <element signature="e#145#154#0" expanded="true" />
@@ -89,15 +107,17 @@
         <option value="$PROJECT_DIR$/palindromecheck.py" />
         <option value="$PROJECT_DIR$/vowelcount.py" />
         <option value="$PROJECT_DIR$/list.txt" />
-        <option value="$PROJECT_DIR$/wordcount.py" />
         <option value="$PROJECT_DIR$/textsender.py" />
+        <option value="$PROJECT_DIR$/wordcount.py" />
+        <option value="$PROJECT_DIR$/scrollandclickscript.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="231" />
-    <option name="y" value="-9" />
-    <option name="width" value="1321" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="167" />
+    <option name="y" value="76" />
+    <option name="width" value="1543" />
     <option name="height" value="939" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -115,6 +135,15 @@
             <path>
               <item name="CodingChallenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingChallenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodingChallenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="CodingChallenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -145,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.textsender">
+  <component name="RunManager" selected="Python.scrollandclickscript">
     <configuration name="palindromecheck" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CodingChallenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,7 +196,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stringreverse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scrollandclickscript" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CodingChallenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,7 +208,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stringreverse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrollandclickscript.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scrollandclickscript" />
         <item itemvalue="Python.textsender" />
         <item itemvalue="Python.wordcount" />
         <item itemvalue="Python.palindromecheck" />
         <item itemvalue="Python.vowelcount" />
-        <item itemvalue="Python.stringreverse" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601841082727</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="cleaned up wordcount, added TODO functionality of getting file in another directory">
+      <created>1602035939898</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602035939899</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -334,22 +370,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="167" y="76" width="1543" height="939" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986339" visible="true" weight="0.11485775" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986339" visible="true" weight="0.14418605" />
       <window_info id="Structure" order="1" sideWeight="0.50136614" side_tool="true" weight="0.11485775" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21543409" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.2878412" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32826748" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32826748" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22936763" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947312" weight="0.3279743" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22828785" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50105375" side_tool="true" weight="0.24866024" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32630274" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -389,28 +425,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/list.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
+        <state relative-caret-position="544">
           <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wordcount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        <state relative-caret-position="510">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="e#145#154#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scrollandclickscript.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/textsender.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#136#166#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="544">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
