@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="790d0987-f6bb-4f19-9d24-9da169136b1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scrollandclickscript.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +38,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+                <state>
+                  <caret lean-forward="true" />
                 </state>
               </provider>
             </entry>
@@ -139,11 +138,6 @@
             <path>
               <item name="CodingChallenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="CodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -357,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602035939899</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added gitignore, included scrolling script">
+      <created>1602367463130</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602367463131</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -399,7 +400,8 @@
     <MESSAGE value="created palindrome checker" />
     <MESSAGE value="created word count, still has TODO" />
     <MESSAGE value="cleaned up wordcount, added TODO functionality of getting file in another directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned up wordcount, added TODO functionality of getting file in another directory" />
+    <MESSAGE value="added gitignore, included scrolling script" />
+    <option name="LAST_COMMIT_MESSAGE" value="added gitignore, included scrolling script" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/stringreverse.py">
@@ -459,8 +461,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
