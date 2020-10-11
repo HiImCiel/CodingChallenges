@@ -1,4 +1,9 @@
+Project_Default.xml
+CodingChallenges.iml
+misc.xml
+modules.xml
+vcs.xml
+workspace.xml
 
-*.idea
 *.xml
 *.iml
