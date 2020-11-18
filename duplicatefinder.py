@@ -1,35 +1,62 @@
 import os
 import shutil
 
+# Dictionary of files going into new folder
 filedict = {}
 
-keepFolder = 'D:\\testDeletionKeep'
-deleteFolder = 'D:\\testDeletionDelete'
-nodupFolder = 'D:\\noduplicates'
+print("Base folder to be copied (absolute path): ")
+baseFolder = input()
 
-os.mkdir('D:\\noduplicates')
+print("Secondary folder to omit duplicates (absolute path): ")
+compareFolder = input()
 
-os.chdir(keepFolder)
+print("Name of new folder: ")
+duplicateFolder = input()
 
-for foldername, subfolders, filenames in os.walk(keepFolder):
-    for filename in os.listdir(keepFolder):
-        if os.path.getsize((os.path.join(keepFolder, filename))) not in filedict:
-            filedict[filename] = os.path.getsize((os.path.join(keepFolder, filename)))
-            shutil.copy(filename, nodupFolder)
+# Makes new folder
+os.mkdir(duplicateFolder)
+os.chdir(baseFolder)
 
-for x, y in filedict.items():
-    print(x, y)
+# Takes the base folder and adds it to the duplicate proof folder
+print()
+print("Items in base folder: ")
+for foldername, subfolders, filenames in os.walk(baseFolder):
+    # Prints out formatted file name & file size
+    for i in filenames:
+        catJam = os.path.abspath(os.path.join(foldername, i))
+        print("File: ", catJam, "      ", os.path.getsize(catJam), "bits")
 
-os.chdir(deleteFolder)
+        if os.path.getsize(catJam) not in filedict:
+            filedict[catJam] = os.path.getsize(catJam)
+            shutil.copy(catJam, duplicateFolder)
 
-for foldername, subfolders, filenames in os.walk(deleteFolder):
-    for filename in os.listdir(deleteFolder):
-        if os.path.getsize((os.path.join(deleteFolder, filename))) not in filedict:
-            filedict[filename] = os.path.getsize((os.path.join(deleteFolder, filename)))
-            shutil.copy(filename, nodupFolder)
+# for filename in os.listdir(baseFolder):
+#     if os.path.getsize((os.path.join(baseFolder, filename))) not in filedict:
+#         filedict[filename] = os.path.getsize((os.path.join(baseFolder, filename)))
+#         shutil.copy(filename, duplicateFolder)
+
+
+# Switch directory to the new folder that is checked for duplicates
+os.chdir(compareFolder)
+
+print()
+print("list of files: ")
+
+
+# TODO: Add in front-end comparison by name to save computing time
+
+
+for foldername, subfolders, filenames in os.walk(compareFolder):
+    for i in filenames:
+        catJam = os.path.abspath(os.path.join(foldername, i))
+        print("File: ", catJam, "      ", os.path.getsize(catJam), "bits")
+        if os.path.getsize(catJam) not in filedict:
+            filedict[catJam] = os.path.getsize(catJam)
+            shutil.copy(catJam, duplicateFolder)
 
 print()
 print()
 
+print("list of files in " + compareFolder + ": ")
 for x, y in filedict.items():
-    print(x, y)
+    print("File: ", x, "      ", y, "bits")
