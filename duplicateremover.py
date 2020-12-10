@@ -19,6 +19,8 @@ print("Name of new folder for second folder:  ")
 new_folder2 = input()
 
 
+# TODO add check for empty folders & undesirable files (ex. starting with ._)
+
 shutil.copytree(folder_one, new_folder1)
 
 for foldername, subfolders, filenames in os.walk(new_folder1):
@@ -55,3 +57,4 @@ for foldername, subfolders, filenames in os.walk(new_folder2):
         print("Moving file " + file_path + "...")
 
 shutil.move(new_folder2, new_folder1)
+
