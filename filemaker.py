@@ -2,9 +2,11 @@ import os
 
 print("File path: ")
 path = input()
-print("Number of episodes: ")
+print("Episode range (separated by comma): ")
 epi = input()
-numepi = int(epi)
+
+epi1 = int(epi.split(",")[0])
+epi2 = int(epi.split(",")[1])
 
 # change to given directory
 os.chdir(path)
@@ -13,7 +15,7 @@ os.chdir(path)
 for foldername, subfolders, filenames in os.walk(path):
 
     # creates folders based on their episode number
-    for i in range(1, numepi):
+    for i in range(epi1, epi2 + 1):
         try:
             x = "Episode " + (str(i))
             os.mkdir(x)
